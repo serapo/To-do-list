@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <style>
+       *{
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+        }
+        .container{
+            background-image: url("https://cdn.lifehack.org/wp-content/uploads/2012/11/to-do-list1.jpg");
+            background-size: cover;
+            width: 100vw;
+            height: 100vh;
+        }
+        div section p{
+            color:black;
+            font-size: 30px;
+            padding-top: 6rem;
+            padding-left: 60vw;
+            padding-bottom: 0.5rem;
+        }
+        input{
+            width: 15rem;
+            height: 1.5rem;
+            margin-left:57vw;
+            background-color: lightgray;
+            border: none;
+            border-radius: 10px 10px 10px 10px;
+        }
+        button{
+            background-color: #FCF7C2;
+            border: none;
+            font-size: 18px;
+            width: 2rem;
+           
+        }
+        .liste{
+            background-color: lightgray;
+            width: 19rem;
+            height: 20rem;
+            margin-top: 1rem;
+            margin-left:57vw;
+            border-radius: 10px 10px 10px 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <section class="ekleme">
+            <p> To Do List</p>
+            <input type="text" name="do" id="do">
+            <button id="addBtn"><i class="fa-solid fa-circle-check"></i></button>
+        </section>
+        <section class="liste">
+
+
+        </section>
+
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
