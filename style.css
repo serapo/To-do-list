@@ -1,4 +1,4 @@
-*{
+/* /* *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -20,7 +20,7 @@
       width: 15rem;
       height: 1.5rem;
       margin-left:57vw;
-      /* background-color: lightgray; */
+      /* background-color: lightgray; 
       border: none;
       border-radius: 10px 10px 10px 10px;
   }
@@ -37,10 +37,18 @@
       height: 20rem; */
       /* margin-top: 1rem;
       margin-left:57vw;
-      border-radius: 10px 10px 10px 10px;  */
+      border-radius: 10px 10px 10px 10px;  
   }
   ul {
       list-style: none;
       padding-left: 1rem;
       line-height: 2rem;
+  } */
+ 
+  button{
+      width: 10vw;
+      height: 1rem;
   }
+input {
+    width: 20vw;
+}
