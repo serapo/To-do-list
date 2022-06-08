@@ -1,6 +1,9 @@
 const input=document.querySelector("todo_input");
-const submitBtn=document.querySelector("todo_btn");
+const form=document.querySelector(".todo_form");
+const submitBtn=document.getElementsByClassName("todo_btn");
 
-submitBtn.addEventListener('click', () =>{
+const addtoDo =(e) =>{
      
-});
+}
+
+form.addEventListener("submit", addtoDo);
